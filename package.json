@@ -3,14 +3,26 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "recharts": "^2.15.3"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@storybook/addon-onboarding": "^9.0.1",
+    "@storybook/nextjs": "^9.0.1",
+    "storybook": "^9.0.1"
   }
 }
